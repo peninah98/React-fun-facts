@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 90px;
+    padding: 30px 25px;
+}
+
+.nav > img{
+    height: 30px;
+    margin-right: 7px;
+}
+
+.nav > h3, nav > h4 {
+    margin: 0;
+}
+
+.nav > h3 {
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.nav > h4 {
+    color: white;
+    font-weight: 700;
+    
+}
+
+.mainFunFacts{
+    padding: 57px 27px;
+    background-color: #181c25;
+    color: whitesmoke;
+    background-image: url('/src/logo.svg');
+    background-repeat: no-repeat;
+    background-position: right 75%;
+
+}
+
+.factsTitle{
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39.06px;
+
+}
+
+.fanFactList{
+
+   padding-block: 10px;
+   line-height: 40px;
+   max-width: 500px;
+   
+   
+}
+
+.fanFactList > li::marker{
+
+    font-size: 1.4rem;
+    color: #61DAFB;
+    
+ }
